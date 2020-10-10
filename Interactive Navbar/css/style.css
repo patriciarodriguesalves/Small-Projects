@@ -1,0 +1,34 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.option{
+    width: 60px;
+    height: 68px;
+    background: #FFF;
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.fa{
+    width: 60px;
+    height: 68px;
+    box-sizing: border-box;
+    line-height: 68px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.option span{
+    margin: 0 5px;
+    font-size: .9rem;
+    font-family: 'Alata', sans-serif;
+}
+
+.option:hover{
+    width: 130px;
+}
